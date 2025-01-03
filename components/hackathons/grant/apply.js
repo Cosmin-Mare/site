@@ -182,7 +182,7 @@ const Apply = ({ channel }) => {
 
       <Slide left>
         <Link
-          href="/slack/?reason=Application%20for%20the%20high%20school%20hackathon%20grant"
+          href="https://hackclub.com/slack/?reason=Application%20for%20the%20high%20school%20hackathon%20grant"
           target="_blank"
           sx={{ textDecoration: 'none' }}
         >

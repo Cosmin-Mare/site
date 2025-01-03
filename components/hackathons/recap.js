@@ -50,7 +50,7 @@ export default function Recap() {
         <Card
           variant="interactive"
           as="a"
-          href="/slack"
+          href="https://hackclub.com/slack"
           sx={{
             background: 'linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%)',
             color: 'white',
@@ -67,7 +67,7 @@ export default function Recap() {
         <Card
           variant="interactive"
           as="a"
-          href="/hackathons/grant"
+          href="https://hackclub.com/hackathons/grant"
           sx={{
             background:
               'linear-gradient(to bottom, rgba(255, 140, 55, 0.9) 0%, rgba(236, 55, 80, 0.9) 100%)',

@@ -95,7 +95,7 @@ export default function Channels() {
         </Text>
         <SlackEvents />
       </Box>
-      <NextLink href="/ship" passHref>
+      <NextLink href="https://hackclub.com/ship" passHref>
         <Card
           as="a"
           variant="interactive"

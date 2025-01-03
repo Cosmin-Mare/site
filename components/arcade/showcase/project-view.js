@@ -174,7 +174,7 @@ const ProjectView = ({
         </div>
         <Text
           as="a"
-          href="/arcade/showcase/my"
+          href="https://hackclub.com/arcade/showcase/my"
           sx={{
             border: `2px dashed ${textColor}`,
             borderRadius: '5px',

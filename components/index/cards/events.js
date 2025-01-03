@@ -68,7 +68,7 @@ export default function Events({ data, stars, events }) {
             </Link>
             ) and host an{' '}
             <Link
-              href="/amas"
+              href="https://hackclub.com/amas"
               target="_blank"
               rel="noopener"
               sx={{ color: 'inherit' }}

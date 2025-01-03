@@ -100,7 +100,7 @@ export default function Slack({ data, slackKey, events }) {
             Occasionally we invite someone we really want to speak to (like Sal
             Khan, George Hotz, and Lady Ada) and host an{' '}
             <Link
-              href="/amas"
+              href="https://hackclub.com/amas"
               target="_blank"
               rel="noopener"
               sx={{ color: 'inherit' }}

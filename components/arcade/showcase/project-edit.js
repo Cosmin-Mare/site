@@ -48,7 +48,7 @@ const ProjectEditForm = ({ project }) => {
       </Text>
       <Text
         as="a"
-        href="/arcade/showcase/my"
+        href="https://hackclub.com/arcade/showcase/my"
         sx={{
           border: '2px dashed #333',
           borderRadius: '5px',

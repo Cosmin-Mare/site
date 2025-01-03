@@ -52,7 +52,6 @@ function Page({
   gitHubData,
   gitHubDataLength,
   consoleCount,
-  stars,
   // githubData2,
   dataPieces,
   game,
@@ -204,12 +203,6 @@ function Page({
             priority
             gradient="linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.45))"
           />
-          <Announcement
-            copy="Build, Battle, Booty. Repeat."
-            caption="Get free Raspberry Pis, Framework Laptops, iPads, and more. Join High Seas! Oct 30 - Jan 31. highseas.hackclub.com"
-            href="https://highseas.hackclub.com/"
-            imgSrc="https://cloud-jul29z0v7-hack-club-bot.vercel.app/0image.png"
-          />
           <Box
             sx={{
               width: '90vw',
@@ -246,7 +239,7 @@ function Page({
                   width: '100%'
                 }}
               >
-                We are <Comma>{slackData.total_members_count}</Comma>{' '}
+                We are <Comma>50,521</Comma>{' '}
                 <Text
                   sx={{
                     color: 'transparent',
@@ -285,7 +278,7 @@ function Page({
               <Button
                 variant="ctaLg"
                 as="a"
-                href="/slack"
+                href="https://hackclub.com/slack"
                 mt={[3, 0, 0]}
                 sx={{ transformOrigin: 'center left' }}
               >
@@ -369,7 +362,7 @@ function Page({
               in-person to make things with code. Whether you’re a beginner
               programmer or have years of experience, there’s a place for you at
               Hack&nbsp;Club. Read about our{' '}
-              <Link href="/philosophy" target="_blank" rel="noopener">
+              <Link href="https://hackclub.com/philosophy" target="_blank" rel="noopener">
                 hacker ethic
               </Link>
               .
@@ -538,7 +531,7 @@ function Page({
                     </strong>
                     Have a coding question? Looking for project feedback? You’ll
                     find hundreds of fabulous people to talk to in our global{' '}
-                    <Link href="/slack" target="_blank" rel="noopener">
+                    <Link href="https://hackclub.com/slack" target="_blank" rel="noopener">
                       Slack{' '}
                     </Link>
                     (like Discord), active at all hours.
@@ -598,11 +591,11 @@ function Page({
                     <strong sx={{ mb: 1 }}>Gather IRL with other makers</strong>
                     Meet other Hack&nbsp;Clubbers in your community to build
                     together at one of the 400+{' '}
-                    <Link href="/clubs" target="_blank" rel="noopener">
+                    <Link href="https://hackclub.com/clubs" target="_blank" rel="noopener">
                       Hack&nbsp;Clubs
                     </Link>{' '}
                     and{' '}
-                    <Link href="/hackathons" target="_blank" rel="noopener">
+                    <Link href="https://hackclub.com/hackathons" target="_blank" rel="noopener">
                       high school hackathons
                     </Link>
                     .
@@ -791,22 +784,20 @@ function Page({
               </Flex>
               <Sprig
                 delay={100}
-                stars={stars.sprig.stargazerCount}
                 game={game}
                 gameImage={gameImage}
                 gameImage1={gameImage1}
               />
-              <Onboard stars={stars.onboard.stargazerCount} delay={100} />
-              <Haxidraw stars={stars.blot.stargazerCount} delay={100} />
-              <Sinerider delay={200} stars={stars.sinerider.stargazerCount} />
+              <Onboard delay={100} />
+              <Haxidraw delay={100} />
+              <Sinerider delay={200} />
               <Box as="section" id="sprig">
                 <SprigConsole
                   delay={300}
-                  stars={stars.sprig.stargazerCount}
                   consoleCount={consoleCount}
                 />
               </Box>
-              <Workshops delay={400} stars={stars.hackclub.stargazerCount} />
+              <Workshops delay={400}/>
             </Box>
           </Box>
           <Box
@@ -884,7 +875,6 @@ function Page({
               <Hackathons
                 delay={400}
                 data={hackathonsData}
-                stars={stars.hackathons.stargazerCount}
               />
 
               {/* <Events events={events} /> */}
@@ -955,7 +945,7 @@ function Page({
             >
               <Card
                 as="a"
-                href="/slack"
+                href="https://hackclub.com/slack"
                 target="_blank"
                 rel="noopener"
                 variant="interactive"
@@ -1080,7 +1070,7 @@ function Page({
                   }
                 }}
                 as="a"
-                href="/clubs"
+                href="https://hackclub.com/clubs"
                 variant="interactive"
                 target="_blank"
                 rel="noopener"
@@ -1245,9 +1235,6 @@ export async function getStaticProps() {
 
   //   let gitHubData = null
 
-  // GitHub: get latest GitHub stars
-  const { fetchStars } = require('./api/stars')
-  let stars = await fetchStars()
 
   // Sprig: get newest games
   const { getGames } = require('./api/games')
@@ -1295,7 +1282,6 @@ export async function getStaticProps() {
       hackathonsData,
       bankData,
       slackData,
-      stars,
       events,
       carouselCards
     },
