@@ -153,8 +153,8 @@ function Page({
     <>
       <Meta
         as={Head}
-        title="A Home for High School Hackers"
-        description="Hack Club is a global nonprofit network of high school makers & student-led coding clubs where young people build the agency, the network, & the technical talent to think big & do big things in the world."
+        title="A Doua Casă Pentru Liceenii Programatori"
+        description="Hack Club este o rețea globală nonprofit de grupuri de elevi și cluburi de programare conduse de studenți, unde tinerii dezvoltă abilități, rețele și talent tehnic pentru a gândi mare și a face lucruri mari în lume."
         image="https://cloud-lgl7kg862-hack-club-bot.vercel.app/0start__1_.png"
       />
       <Head>
