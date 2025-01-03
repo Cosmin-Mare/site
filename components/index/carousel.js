@@ -31,7 +31,7 @@ export default function Carousel({ cards }) {
               margin: 'auto'
             }}
           >
-            Here are a few projects you could get involved in:
+            Aici sunt câteva programe de care ai putea profita:
           </Text>
           <Ticker speed={speed} sx={{ overflowX: 'hidden' }}>
             {() => (

@@ -93,13 +93,11 @@ export default function Counterspell() {
 
               }}
             >
-                HACK CLUB'S BEGINNER FRIENDLY GAME JAM
-
+                EVENIMENTUL GLOBAL PENTRU PROGRAMATORI <br />
+                DE JOCURI ÎNCEPĂTORI
               <br />
-              100+ CITIES NOV 23-24
+              100+ ORAȘE NOIEMBRIE 23-24 2024
             </Text>
-
-  
           </Flex>
         </Flex>
    
@@ -115,7 +113,7 @@ export default function Counterspell() {
               sx = {{zIndex: 9999999, left: ["50%", "50%", "0%"]}}
             >
                 
-              Learn More
+              Informații
             </Buttons>
         
     

@@ -64,9 +64,8 @@ export default function Onboard({ stars }) {
             {projects} projects built
           </Text>
           <Text as="p" variant="subtitle">
-            Circuit boards are magical. You design one, we'll print it.
-            Completely for free! Get a $100 grant to fuel the creation of your
-            dream project with OnBoard.
+            Plăcile de circuite sunt magice. Proiectează una, iar noi o vom imprima.
+            Complet gratis! Obține un grant de 100$ pentru a alimenta creația proiectului tău de vis cu OnBoard.
           </Text>
         </Box>
         <Flex
@@ -79,13 +78,13 @@ export default function Onboard({ stars }) {
             primary="#87ffa1"
             color="black"
           >
-            Get a grant
+           Obține un grant
           </Buttons>
           <Buttons icon="docs" link="https://jams.hackclub.com/tag/pcb" id="60">
-            Learn how to design a PCB
+            Învață cum să proiectezi o placă de circuite
           </Buttons>
           <Buttons icon="friend" link="/slack?event=onboard" id="61">
-            See what other hackers have built
+            Vezi ce au construit alți hackeri
           </Buttons>
         </Flex>
       </Grid>

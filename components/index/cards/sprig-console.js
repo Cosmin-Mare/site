@@ -33,7 +33,7 @@ export default function SprigConsole({ stars, consoleCount }) {
             mt: '-24px',
             zIndex: 0
           }}
-          alt="Printed circuit board"
+          alt="Placă de circuit imprimat"
         />
         <Image
           src="https://cloud-8u6hh0ho9-hack-club-bot.vercel.app/0sprig_console.svg"
@@ -45,7 +45,7 @@ export default function SprigConsole({ stars, consoleCount }) {
             fontSize: ['36px', 4, 5],
             color: 'white'
           }}
-          alt="Sprig console"
+          alt="Consola Sprig"
         />
         <Text
           as="p"
@@ -62,7 +62,7 @@ export default function SprigConsole({ stars, consoleCount }) {
             top: ['24px', 0, '5px']
           }}
         >
-          Join the other {consoleCount} teenagers with Sprigs!
+          Alătură-te celorlalți {consoleCount} adolescenți cu Sprigs!
         </Text>
         <Grid
           columns={[1, 1, '1.2fr 1fr', '1.2fr 1fr']}
@@ -79,13 +79,12 @@ export default function SprigConsole({ stars, consoleCount }) {
                 mb: ['-15px', '-30px', '', ''],
                 display: [null, null, 'none', 'none']
               }}
-              alt="Sprig console"
+              alt="Consola Sprig"
             />
             <Text as="p" variant="subtitle" mt={[0, null, null]}>
-              Play your own Sprig games on this console, which you can assemble
-              and disassemble. Each kit includes parts needed for getting
-              started with hardware engineering and embedded systems
-              programming.{' '}
+              Joacă jocurile tale pe această consolă Sprig, pe care o poți
+              asambla și dezasambla. Fiecare kit include piesele necesare pentru
+              a începe cu ingineria hardware și programarea sistemelor încorporate.
             </Text>
             <Buttons
               id="6"
@@ -94,7 +93,7 @@ export default function SprigConsole({ stars, consoleCount }) {
               primary="#427A43"
               sx={{ mt: [3, 3, 4] }}
             >
-              Build a game and get your console
+              Construiește un joc și ia-ți consola
             </Buttons>
           </Box>
           <Box></Box>
@@ -114,7 +113,7 @@ export default function SprigConsole({ stars, consoleCount }) {
             },
             zIndex: 3
           }}
-          alt="Sprig console"
+          alt="Consola Sprig"
         />
       </Tilt>
     </Box>

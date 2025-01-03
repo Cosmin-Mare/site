@@ -223,7 +223,7 @@ function Page({
               }}
               as="h4"
             >
-              Welcome to Hack&nbsp;Club
+              Bine ai venit în Hack&nbsp;Club
             </Text>
             <Heading>
               <Text
@@ -239,7 +239,7 @@ function Page({
                   width: '100%'
                 }}
               >
-                We are <Comma>50,521</Comma>{' '}
+                Suntem <Comma>50,521</Comma>{' '}
                 <Text
                   sx={{
                     color: 'transparent',
@@ -268,12 +268,12 @@ function Page({
                     }}
                     aria-hidden="true"
                   >
-                    teen hackers
+                    hackeri adolescenți
                   </Text>
-                  teen hackers
+                  hackeri adolescenți
                 </Text>
-                <br sx={{ display: ['inline', 'none', 'none'] }} /> from around
-                the world who code together
+                <br sx={{ display: ['inline', 'none', 'none'] }} /> din toată lumea
+                care programăm împreună.
               </Text>
               <Button
                 variant="ctaLg"
@@ -282,7 +282,7 @@ function Page({
                 mt={[3, 0, 0]}
                 sx={{ transformOrigin: 'center left' }}
               >
-                Join our community
+                Vino în comunitatea noastră
               </Button>
             </Heading>
           </Box>
@@ -313,7 +313,7 @@ function Page({
               }}
               title="📸 Photo by Matt Gleich, Hack Clubber in NH!"
             >
-              Hackers at Outernet in Vermont
+              Hackeri la Outernet în Vermont
             </Badge>
           </Box>
         </Box>
@@ -331,7 +331,7 @@ function Page({
               as="h1"
               sx={{ fontSize: ['36px', '48px', '56px'] }}
             >
-              Discover the{' '}
+              Descoperă{' '}
               <Text
                 as="span"
                 sx={{
@@ -345,9 +345,9 @@ function Page({
                   WebkitTextFillColor: 'transparent'
                 }}
               >
-                joy of code
+                bucuria de a programa
               </Text>
-              , together.
+              , împreună.
             </Text>
             <Text
               variant="subtitle"
@@ -358,12 +358,12 @@ function Page({
                 maxWidth: '62ch'
               }}
             >
-              Every day, thousands of Hack&nbsp;Clubbers gather online and
-              in-person to make things with code. Whether you’re a beginner
-              programmer or have years of experience, there’s a place for you at
-              Hack&nbsp;Club. Read about our{' '}
+              În fiecare zi, mii de liceeni din Hack&nbsp;Club se adună online și
+              față în față să creeze programe cu cod. Indiferent dacă ești începător
+              sau ai ani de experiență, există un loc pentru tine în
+              Hack&nbsp;Club. Citește despre{' '}
               <Link href="https://hackclub.com/philosophy" target="_blank" rel="noopener">
-                hacker ethic
+                etica de hacker
               </Link>
               .
             </Text>
@@ -527,14 +527,14 @@ function Page({
                   </Text>
                   <Text as="p" variant="subtitle">
                     <strong sx={{ mb: 1 }}>
-                      Connect with other teenage coders
+                      Conectează-te cu alți liceeni programatori
                     </strong>
-                    Have a coding question? Looking for project feedback? You’ll
-                    find hundreds of fabulous people to talk to in our global{' '}
+                    Ai o întrebare despre programare? cauți feedback? Vei găsi sute 
+                    de oameni fabuloși cu care poți vorbi pe{' '}
                     <Link href="https://hackclub.com/slack" target="_blank" rel="noopener">
                       Slack{' '}
                     </Link>
-                    (like Discord), active at all hours.
+                    (ca Discord), activ la orice oră.
                   </Text>
                 </Grid>
                 <Grid
@@ -561,14 +561,13 @@ function Page({
                     }}
                   >
                     <strong sx={{ mb: 1 }}>
-                      Build open source learning tools
+                      Construiește unelte de învățare cu sursă deschisă
                     </strong>
-                    We build large open source projects together (
+                    Construim proiecte mari cu sursă deschisă împreună (
                     <Link href="https://github.com/hackclub" target="_blank">
-                      3k+&nbsp;PRs a year
+                      3000+&nbsp;de Pull Request-uri pe Github într-un an
                     </Link>
-                    ) like this website, a game engine, daily streak system, and
-                    more!
+                    ) ca acest website, un motor grafic, și multe altele!
                   </Text>
                 </Grid>
                 <Grid
@@ -588,15 +587,15 @@ function Page({
                     3
                   </Text>
                   <Text as="p" variant="subtitle">
-                    <strong sx={{ mb: 1 }}>Gather IRL with other makers</strong>
-                    Meet other Hack&nbsp;Clubbers in your community to build
-                    together at one of the 400+{' '}
+                    <strong sx={{ mb: 1 }}>Întalnește-te în persoană cu alți creatori</strong>
+                    Cunoaște alți Hack&nbsp;Clubberi în comunitatea ta, pentru a construi
+                    împreună la unul din cele 400+{' '}
                     <Link href="https://hackclub.com/clubs" target="_blank" rel="noopener">
-                      Hack&nbsp;Clubs
+                      Hack&nbsp;Club-uri
                     </Link>{' '}
-                    and{' '}
+                    și{' '}
                     <Link href="https://hackclub.com/hackathons" target="_blank" rel="noopener">
-                      high school hackathons
+                      hackathonuri pentru adolescenți
                     </Link>
                     .
                   </Text>
@@ -644,7 +643,7 @@ function Page({
           >
             <Box>
               <Text variant="title" sx={{ fontSize: ['36px', 4, 5] }}>
-                Connect with{' '}
+                Conectează-te cu{' '}
                 <Text
                   as="span"
                   sx={{
@@ -656,17 +655,16 @@ function Page({
                     bg: 'red'
                   }}
                 >
-                  builders
+                  creatori
                 </Text>{' '}
-                from around the world
+                din toată lumea
               </Text>
               <Text
                 variant="subtitle"
                 as="p"
                 sx={{ fontSize: ['18px', '20px', '22px'], pb: [3, 0, 0] }}
               >
-                We gather both online and in-person to share our love of code
-                and make things together!
+                Ne întâlnim atât online cât și în persoană pentru a ne împărtăși iubirea pentru a programa și a crea lucruri împreună!
               </Text>
             </Box>
             <HighSeas />
@@ -708,7 +706,7 @@ function Page({
                       maxWidth: '20ch'
                     }}
                   >
-                    We build{' '}
+                    Construim{' '}
                     <Text
                       as="span"
                       sx={{
@@ -718,9 +716,9 @@ function Page({
                         color: 'orange'
                       }}
                     >
-                      open source
+                      Proiecte cu <br/>sursă deschisă
                     </Text>{' '}
-                    games and tools together
+                    împreună
                   </Text>
                   <Text
                     variant="subtitle"
@@ -731,10 +729,10 @@ function Page({
                       maxWidth: '60ch'
                     }}
                   >
-                    In collaboration with engineers on the Hack&nbsp;Club team,
-                    Hack Clubbers build learning tools for each other. Get
-                    involved with these projects by building something with our
-                    tools or contribute to the tools themselves.
+                    În colaborare cu inginerii din echipa Hack&nbsp;Club,
+                    Hack Clubberii construiesc unelte de învățare unii pentru alții. 
+                    Implică-te în aceste proiecte construind ceva cu uneltele noastre
+                    sau contribuie la ele.
                   </Text>
                 </Box>
                 {gitHubData && (
@@ -844,7 +842,7 @@ function Page({
                     margin: 'auto'
                   }}
                 >
-                  Find your{' '}
+                  Găsește-ți comunitatea{' '}
                   <Text
                     as="span"
                     sx={{
@@ -854,7 +852,7 @@ function Page({
                       color: 'orange'
                     }}
                   >
-                    IRL community.
+                    de lângă tine
                   </Text>
                 </Text>
                 <Text
@@ -867,8 +865,7 @@ function Page({
                     textAlign: 'center'
                   }}
                 >
-                  Thousands of Hack Clubbers organize and participate in
-                  hackathons and after school coding clubs.
+                  Mii de Hack Clubberi organizează și participă în hackathonuri și cluburi de programare
                 </Text>
               </Box>
               <Clubs />
@@ -876,9 +873,6 @@ function Page({
                 delay={400}
                 data={hackathonsData}
               />
-
-              {/* <Events events={events} /> */}
-              <HCB data={bankData} />
             </Box>
           </Box>
         </Box>
@@ -896,7 +890,7 @@ function Page({
                 variant="eyebrow"
                 sx={{ fontSize: ['22px', 2, 3], textAlign: 'center' }}
               >
-                We've got a lot going on - Let’s recap
+                Avem discutat despre o grămadă de chestii - hai să recapitulăm
               </Text>
               <Text
                 variant="title"
@@ -908,7 +902,7 @@ function Page({
                   margin: 'auto'
                 }}
               >
-                Find your second home at{' '}
+                Găsește-ți a doua casă la {' '}
                 <Text
                   as="span"
                   sx={{
@@ -984,8 +978,8 @@ function Page({
                 <Stage
                   icon="slack"
                   color="white"
-                  name="Join Our Slack"
-                  desc="Connect with other technical teenagers on Slack and hack on things together."
+                  name="Intră pe Slack"
+                  desc="Conectează-te cu alți programatori adolescenți și creați proiecte împreună"
                   sx={{
                     p: {
                       fontSize: ['18px', '20px', '22px']
@@ -1038,8 +1032,8 @@ function Page({
                 <Stage
                   icon="github"
                   color="white"
-                  name="Explore Our Open Source Tools"
-                  desc="We’re currently building a game engine, daily streak system, graphing game, and more!"
+                  name="Explorează resursele noastre cu sursă deschisă"
+                  desc="Construim un motor grafic, un sistem de urmărire a progresului, un joc de graficare, și multe altele!"
                   sx={{
                     p: {
                       fontSize: [1, '16px', '20px']
@@ -1092,8 +1086,8 @@ function Page({
                 <Stage
                   icon="clubs"
                   color="white"
-                  name="Start A Club"
-                  desc="Build an in-person community of high school hackers, and we’re here to help."
+                  name="Începe un club!"
+                  desc="Construiește o comunitate de hackeri liceeni, iar noi suntem aici să ajutăm."
                   sx={{
                     p: {
                       fontSize: ['18px', '20px', '22px']

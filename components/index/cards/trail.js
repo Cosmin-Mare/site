@@ -58,7 +58,7 @@ export default function Trail() {
             >
               Pacific Crest Trail
               <br />
-              July 12-19
+              Iulie 12-19
             </Text>
 
             <Buttons
@@ -70,7 +70,7 @@ export default function Trail() {
               id="43"
               sx={{ color: '#FFF5D8', fontFamily: "Fraunces", border: "3px solid #FFF5D8" }}
             >
-              View the Documentary
+              Vizionează documentarul
             </Buttons>
           </Flex>
         </Flex>
@@ -84,7 +84,7 @@ export default function Trail() {
               backgroundColor: "#FFF5D8"
             }}
           >
-            30 Hack Clubbers went on a 7 day hike along the Pacific Crest Trail supplied by only the technical equipment that they built. 
+            30 de Hack Clubberi au mers într-o drumeție de 7 zile pe traseul Pacific Crest Trail aprovizionați de echipamentele tehnice pe care le-au construit. 
           </Text>
         </Box>
       </Grid>

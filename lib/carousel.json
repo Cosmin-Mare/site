@@ -4,7 +4,7 @@
     "titleColor": "white",
     "descriptionColor": "white",
     "title": "Jams",
-    "description": "Collaborative coding workshops where sparks ignite, fears dissolve, and inventions come to life",
+    "description": "Ateliere de programare colaborativă unde scânteile se aprind, temerile dispar și invențiile prind viață",
     "img": "https://cloud-7xyxcf3f6-hack-club-bot.vercel.app/0new_project__3_.png",
     "link": "https://jams.hackclub.com"
   },
@@ -13,7 +13,7 @@
     "titleColor": "#F6D193",
     "descriptionColor": "#F6D193",
     "title": "Boba Drops",
-    "description": "Build a HTML + CSS Static Site!, Get free Boba",
+    "description": "Construiește un site static cu HTML + CSS! Primește Boba gratuit",
     "img": "https://cloud-oil5vh30l-hack-club-bot.vercel.app/0boba_hc_toolbox.png",
     "link": "https://hack.club/boba"
   },
@@ -22,7 +22,7 @@
     "titleColor": "#4F2A0E",
     "descriptionColor": "#4F2A0E",
     "title": "Hackaccino",
-    "description": "Make a 3D Website • Get a free Frappuccino",
+    "description": "Creează un site 3D • Primește un Frappuccino gratuit",
     "img": "https://cloud-ahkc8uotv-hack-club-bot.vercel.app/0group_15.png",
     "link": "https://hack.club/fraps"
   },
@@ -31,16 +31,16 @@
     "titleColor": "#EDE2DC",
     "descriptionColor": "#EDE2DC",
     "title": "Cider",
-    "description": "Design, Code, and Ship an iOS app to the App Store in 30 days.",
+    "description": "Proiectează, codează și publică o aplicație iOS pe App Store în 30 de zile.",
     "img": "https://cloud-m33gqgkp6-hack-club-bot.vercel.app/0image.png",
     "link": "https://cider.hackclub.com/"
   },
-    {
+  {
     "background": "#30AE1F",
     "titleColor": "#FFFFFF",
     "descriptionColor": "#FFFFFF",
     "title": "HackCraft",
-    "description": "Ship a mod - Get Minecraft",
+    "description": "Creează un mod - Primește Minecraft",
     "img": "https://cloud-kgilrkgl7-hack-club-bot.vercel.app/0image.png",
     "link": "https://hackcraft.hackclub.com/"
   },
@@ -49,7 +49,7 @@
     "titleColor": "dark",
     "descriptionColor": "black",
     "title": "Putting The \"You\" In CPU",
-    "description": "Curious exactly what happens when you run a program on your computer? Read this.",
+    "description": "Ești curios să afli ce se întâmplă exact când rulezi un program pe computerul tău? Citește asta.",
     "img": "https://cloud-eg2ex8nol-hack-club-bot.vercel.app/0favicon-on-light-removebg-preview.png",
     "link": "https://cpu.land"
   },
@@ -58,7 +58,7 @@
     "titleColor": "green",
     "descriptionColor": "white",
     "title": "Sprig",
-    "description": "Join hundreds of teenagers making tile-based JavaScript games",
+    "description": "Alătură-te sutelor de adolescenți care creează jocuri bazate pe JavaScript și tile-uri",
     "img": "https://emoji.slack-edge.com/T0266FRGM/sprig-dino/6f01fec60b51b343.png",
     "link": "https://sprig.hackclub.com"
   },
@@ -67,7 +67,7 @@
     "titleColor": "dark",
     "descriptionColor": "black",
     "title": "Some Assembly Required",
-    "description": "The 4th most starred Assembly repository on GitHub",
+    "description": "Al 4-lea cel mai apreciat repository de Assembly de pe GitHub",
     "img": "https://emoji.slack-edge.com/T0266FRGM/someassemblyrequired/cfacfacaaa2d8b1d.png",
     "link": "https://github.com/hackclub/some-assembly-required"
   },
@@ -76,7 +76,7 @@
     "titleColor": "#CAB4D4",
     "textColor": "#CAB4D4",
     "title": "SineRider",
-    "description": "Help build a game about love, math, and graphing 💖",
+    "description": "Ajută la crearea unui joc despre dragoste, matematică și grafice 💖",
     "img": "https://emoji.slack-edge.com/T0266FRGM/sinerider/68a0bc1208e885dd.png",
     "link": "https://sinerider.com"
   },
@@ -85,7 +85,7 @@
     "titleColor": "green",
     "descriptionColor": "white",
     "title": "OnBoard",
-    "description": "Join 1k teens designing PCBs, learning hardware, and building electronics",
+    "description": "Alătură-te celor 1.000 de adolescenți care proiectează PCB-uri, învață hardware și construiesc electronice",
     "img": "https://cloud-6skkg6eck-hack-club-bot.vercel.app/0image.png",
     "link": "/onboard"
   },
@@ -95,7 +95,7 @@
     "textColor": "black",
     "descriptionColor": "black",
     "title": "Nest",
-    "description": "Free Linux server for all Hack Clubbers to host anything they need",
+    "description": "Server Linux gratuit pentru toți Hack Clubberii pentru a găzdui orice au nevoie",
     "img": "https://emoji.slack-edge.com/T0266FRGM/nest/aa345378581cee0c.png",
     "link": "https://hackclub.app"
   }

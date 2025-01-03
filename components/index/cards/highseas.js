@@ -75,10 +75,10 @@ export default function HighSeas() {
 
               }}
             >
-                Build personal projects. Get free stuff.
+                Crează proiecte personale. Primește obiecte gratis.
 
               <br />
-              Oct 30 - Jan 31
+              Oct 30 - Ian 31
             </Text>
 
             <Buttons
@@ -93,7 +93,7 @@ export default function HighSeas() {
               id="43"
             >
                 
-              Join Now!
+              Alătură-te acum!
             </Buttons>
           </Flex>
         </Flex>

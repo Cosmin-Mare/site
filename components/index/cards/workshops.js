@@ -72,13 +72,13 @@ export default function Workshops({ data, stars }) {
       highlight="blue"
     >
       <Text variant="title" as="h3" sx={{ fontSize: ['36px', 4, 5] }}>
-        Workshops
+        Ateliere
       </Text>
       <Grid columns={[1, 2, 2]} sx={{ gap: 4, height: 'fit-content' }}>
         <Flex sx={{ flexDirection: 'column', height: 'fit-content' }}>
           <Text as="p" variant="subtitle">
-            100+ community-contributed, self-guided coding tutorials and ideas.
-            Learn to code by building, one project at a time.
+            Peste 100 de tutoriale și idei de codare auto-ghidate, contribuite de comunitate.
+            Învață să codifici construind, un proiect pe rând.
           </Text>
           <Buttons
             id="14"
@@ -87,7 +87,7 @@ export default function Workshops({ data, stars }) {
             primary="white"
             sx={{ color: 'blue', mt: [3, 3, 4] }}
           >
-            Browse The Workshops
+            Explorează Atelierele
           </Buttons>
           <Buttons
             // content="click to learn more about how to submit a workshop"
@@ -95,7 +95,7 @@ export default function Workshops({ data, stars }) {
             link="https://workshops.hackclub.com/submit-a-workshop/"
             icon="event-add"
           >
-            Build A Workshop
+            Creează un Atelier
           </Buttons>
         </Flex>
         <Grid sx={{ display: ['none', 'grid', 'grid'] }} columns={[1, 1, 1, 2]}>
@@ -103,14 +103,14 @@ export default function Workshops({ data, stars }) {
             key="splatter_paint"
             slug="splatter_paint"
             name="Splatter Paint"
-            description="Crazy colorful splatter paint in your browser with Paper.js"
+            description="Vopsește colorat și haotic în browser cu Paper.js"
             img="/home/workshops/splatter_paint.png"
           />
           <WorkshopCard
             key="particle_physics"
             slug="particle_physics"
             name="Particle Physics"
-            description="Create a particle physics simulation and with p5.js"
+            description="Creează o simulare de fizică a particulelor cu p5.js"
             img="/home/workshops/particle_physics.png"
             sx={{ display: ['none', 'none', 'none', 'flex'] }}
           />

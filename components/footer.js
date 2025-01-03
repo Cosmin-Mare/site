@@ -42,7 +42,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
     target="_blank"
     rel="noopener me"
     href={href}
-    title={`Hack Club on ${name ? name : icon}`}
+    title={`Hack Club pe ${name ? name : icon}`}
     {...props}
   >
     <Icon glyph={icon} />
@@ -91,37 +91,37 @@ const Footer = ({
             Hack&nbsp;Club
           </Heading>
           <NextLink href="https://hackclub.com/philosophy" passHref>
-            <Link>Philosophy</Link>
+            <Link>Filozofia</Link>
           </NextLink>
           <NextLink href="https://hackclub.com/team" passHref>
-            <Link>Our Team & Board</Link>
+            <Link>Echipa noastră & Consiliul</Link>
           </NextLink>
           <NextLink href="https://hackclub.com/jobs" passHref>
-            <Link>Jobs</Link>
+            <Link>Locuri de muncă</Link>
           </NextLink>
           <NextLink href="https://hackclub.com/brand" passHref>
             <Link>Branding</Link>
           </NextLink>
           <NextLink href="https://hackclub.com/press" passHref>
-            <Link>Press Inquiries</Link>
+            <Link>Informații pentru presă</Link>
           </NextLink>
           <NextLink href="https://hackclub.com/philanthropy" passHref>
-            <Link>Donate</Link>
+            <Link>Donează</Link>
           </NextLink>
         </Box>
         <Box>
           <Heading as="h2" variant="subheadline" mb={3}>
-            Resources
+            Resurse
           </Heading>
-          <Link href="https://hackclub.com/pizza">Clubs Pizza Grant</Link>
-          <Link href="https://events.hackclub.com/">Community Events</Link>
+          <Link href="https://hackclub.com/pizza">Grantul Clubs Pizza</Link>
+          <Link href="https://events.hackclub.com/">Evenimentele Comunității</Link>
           <Link href="https://jams.hackclub.com/">Jams</Link>
           <Link href="https://toolbox.hackclub.com/">Toolbox</Link>
-          <Link href="https://directory.hackclub.com/">Clubs Directory</Link>
-          <Link href="https://hackclub.com/conduct/">Code of Conduct</Link>
+          <Link href="https://directory.hackclub.com/">Directorul Cluburilor</Link>
+          <Link href="https://hackclub.com/conduct/">Codul de Conduită</Link>
         </Box>
         <Box sx={{ gridColumn: ['span 2', 'span 1'] }}>
-          <Logo aria-label="Hack Club logo" width={128} height={45} />
+          <Logo aria-label="Logo Hack Club" width={128} height={45} />
           <Grid
             columns={[8, 4]}
             gap={2}
@@ -182,18 +182,16 @@ const Footer = ({
           <Text my={2}>
             <Link href="tel:1-855-625-HACK">1-855-625-HACK</Link>
             <br />
-            <Text as="span" color="muted">
-              (call toll-free)
-            </Text>
           </Text>
         </Box>
       </Grid>
       <Text as="p" variant="caption" sx={{ mt: 3 }}>
-        © {new Date().getFullYear()} Hack&nbsp;Club. 501(c)(3) nonprofit (EIN:
+        © {new Date().getFullYear()} Hack&nbsp;Club. Nonprofit 501(c)(3) (EIN:
         81-2908499)
       </Text>
     </Container>
   </Base>
 )
+
 
 export default Footer

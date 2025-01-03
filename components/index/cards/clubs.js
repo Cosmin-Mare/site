@@ -34,7 +34,7 @@ export default function Clubs() {
     >
       <Image
         src="https://cloud-5pdwvchgm-hack-club-bot.vercel.app/05851864a.jpg"
-        alt="Summer Creek Hack Club meeting, February 2020"
+        alt="Întâlnire Hack Club Summer Creek, februarie 2020"
         sx={{
           objectFit: 'cover',
           position: 'absolute',
@@ -60,7 +60,7 @@ export default function Clubs() {
           width: 'fit-content'
         }}
       >
-        A Network of 400+ Coding Clubs
+        O rețea de 400+ de cluburi de programare
       </Text>
       <Grid columns={[1, 1, 2]} sx={{ position: 'relative', zIndex: 2 }}>
         <Box>
@@ -69,27 +69,27 @@ export default function Clubs() {
             variant="subtitle"
             sx={{ textShadow: '1px 1px 5px black' }}
           >
-            Join or start a Hack&nbsp;Club and be part of a network of high
-            quality coding clubs where you learn to code entirely through
-            building things.
+            Alătură-te sau începe un Hack&nbsp;Club și fă parte dintr-o rețea
+            de cluburi de programare de înaltă calitate, unde înveți să programezi
+            construind lucruri.
           </Text>
           <Text
             as="p"
             variant="subtitle"
             sx={{ textShadow: '1px 1px 5px black' }}
           >
-            You can start with no experience and build and ship a project every
-            meeting.
+            Poți începe fără experiență și vei construi și lansa un proiect la
+            fiecare întâlnire.
           </Text>
           <Flex sx={{ flexDirection: 'column', mt: [3, 3, 4] }}>
             <Buttons
-              content="we'll support you with meeting content, stickers, and more"
+              content="te vom sprijini cu conținut pentru întâlniri, autocolante și multe altele"
               id="2"
               icon="welcome"
               link="https://apply.hackclub.com/"
               primary="red"
             >
-              Start a club
+              Începe un club
             </Buttons>
           </Flex>
         </Box>

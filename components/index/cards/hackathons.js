@@ -43,7 +43,7 @@ export default function Hackathons({ data, stars }) {
           mt: -4,
           zIndex: 0
         }}
-        alt="A crowd of hackers cheering at Epoch"
+        alt="O mulțime de hackeri care aclamă la Epoch"
       />
       <Cover />
       <Text
@@ -51,7 +51,7 @@ export default function Hackathons({ data, stars }) {
         as="h3"
         sx={{ fontSize: ['36px', 4, 5], position: 'relative', zIndex: 2 }}
       >
-        High School Hackathons
+        Hackathonuri pentru liceeni
       </Text>
       <Grid
         columns={[1, 1, 2]}
@@ -59,9 +59,9 @@ export default function Hackathons({ data, stars }) {
       >
         <Box>
           <Text as="p" variant="subtitle">
-            We support the largest network of high school hackathons in the
-            world. From an online community of organizers to free stickers and
-            more!{' '}
+            Susținem cea mai mare rețea de Hackathonuri pentru liceeni din lume.
+            De la o comunitate online de organizatori la autocolante gratuite și
+            multe altele!
           </Text>
           <Flex sx={{ flexDirection: 'column', mt: [3, 3, 4] }}>
             <Buttons
@@ -70,15 +70,14 @@ export default function Hackathons({ data, stars }) {
               link="https://hackathons.hackclub.com"
               primary="blue"
             >
-              Attend a hackathon
+              Participă la un hackathon
             </Buttons>
             <Buttons
-              // content="learn more about available resources"
               id="20"
               icon="bolt"
               link="/hackathons"
             >
-              Organizer? Learn more.
+              Ești organizator? Află mai multe.
             </Buttons>
           </Flex>
         </Box>
@@ -98,13 +97,12 @@ export default function Hackathons({ data, stars }) {
               as="h4"
               sx={{ fontSize: 'small', width: '100%', textAlign: 'center' }}
             >
-              <Dot /> Upcoming Hackathons
+              <Dot /> Hackathonuri viitoare
             </Text>
             {data.slice(0, 5).map(data => (
               <Box
                 sx={{
                   zIndex: '1',
-                  // bg: 'rgb(255, 255, 255, 0.3)',
                   color: 'white',
                   textDecoration: 'none',
                   fontWeight: 'normal',
@@ -186,14 +184,13 @@ export default function Hackathons({ data, stars }) {
         }}
       >
         <Text sx={{ fontSize: 'small', color: 'white' }}>
-          Upcoming Hackathons:
+          Hackathonuri viitoare:
         </Text>
         <Flex sx={{ gap: '10px' }}>
           {data.slice(0, 2).map(data => (
             <Box
               sx={{
                 zIndex: '1',
-                // bg: 'rgb(255, 255, 255, 0.3)',
                 color: 'white',
                 textDecoration: 'none',
                 fontWeight: 'normal',

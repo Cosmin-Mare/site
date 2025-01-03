@@ -134,15 +134,15 @@ const Navigation = props => (
   // REMINDER: This should be no more than 7 links :)
   <NavBar role="navigation" {...props}>
     <NextLink href="https://hackclub.com/clubs" passHref>
-      <Link>Clubs</Link>
+      <Link>Cluburi</Link>
     </NextLink>
     <NextLink href="https://hackclub.com/fiscal-sponsorship" passHref>
-      <Link>Fiscal&nbsp;Sponsorship</Link>
+      <Link>Sponsorizare&nbsp;Fiscala (Pentru USA)</Link>
     </NextLink>
     <NextLink href="https://hackclub.com/hackathons" passHref>
-      <Link>Hackathons</Link>
+      <Link>Hackathonuri</Link>
     </NextLink>
-    <Link href="https://hackclub.com/slack">Community</Link>
+    <Link href="https://hackclub.com/slack">Comunitate</Link>
     <Link href="https://scrapbook.hackclub.com/">Scrapbook</Link>
     <NextLink href="https://hackclub.com/onboard" passHref>
       <Link>OnBoard</Link>

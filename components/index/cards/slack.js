@@ -77,7 +77,7 @@ export default function Slack({ data, slackKey, events }) {
             maxWidth: [null, null, '70%', null]
           }}
         >
-          Our Online Community
+          Comunitatea Noastră Online
         </Text>
       </Grid>
       <Grid columns={[1, 1, '1.6fr 1fr', '1.6fr 1fr']} sx={{ zIndex: 2 }}>
@@ -91,14 +91,14 @@ export default function Slack({ data, slackKey, events }) {
             variant="subtitle"
             sx={{ fontSize: [1, '16px', '24px'] }}
           >
-            Coding doesn’t have to be a solitary activity. At Hack&nbsp;Club,
-            we make remarkable things together, and in our Slack you’ll find 
-            awesome people to hang out with too. Code together, find your programming 
-            community, dream up something wild, or just #lounge.
+            Programarea nu trebuie să fie o activitate solitară. La Hack&nbsp;Club,
+            creem lucruri remarcabile împreună, și pe Slack vei găsi
+            oameni fantastici cu care poți să-ți petreci timpul. Programează împreună, găsește-ți comunitatea de programare
+            , visează ceva incredibil, sau doar #lounge.
           </Text>
           <Text as="p" variant="subtitle">
-            Occasionally we invite someone we really want to speak to (like Sal
-            Khan, George Hotz, and Lady Ada) and host an{' '}
+            Ocazional, invităm pe cineva cu care ne dorim să vorbim (precum Sal
+            Khan, George Hotz, and Lady Ada) și organizăm un{' '}
             <Link
               href="https://hackclub.com/amas"
               target="_blank"
@@ -107,11 +107,11 @@ export default function Slack({ data, slackKey, events }) {
             >
               AMA
             </Link>{' '}
-            with them.{' '}
+            cu ei.{' '}
           </Text>
           <Event events={events} />
           <Buttons id="13" link="/slack" icon="slack" primary="purple">
-            Join our Slack
+            Intră pe Slack
           </Buttons>
           <Grid
             sx={{

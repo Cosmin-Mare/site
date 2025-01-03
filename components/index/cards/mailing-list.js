@@ -129,7 +129,7 @@ const MailingList = () => {
                   textAlign: 'left'
                 }}
               >
-                Join the newsletter
+                Abonează-te la newsletter
               </Text>
               <Text
                 sx={{
@@ -140,14 +140,13 @@ const MailingList = () => {
                 }}
                 as="p"
               >
-                We&apos;ll send you an email no more than once a month, when we
-                work on something cool for you. Check out our{' '}
+              Îți vom trimite nu mai mult de un email pe luna, când lucrăm pe ceva cool pentru tine. Vezi{' '}
                 <Link
                   href="https://workshops.hackclub.com/leader-newsletters/"
                   target="_blank"
                   rel="noopener norefferer"
                 >
-                  previous issues
+                  emailurile trimise
                 </Link>
                 .
               </Text>
@@ -170,7 +169,7 @@ const MailingList = () => {
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Your Name"
+                  placeholder="Numele tău"
                   required
                   sx={{
                     width: '100%',
@@ -185,7 +184,7 @@ const MailingList = () => {
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="Your Email"
+                  placeholder="Emailul tău"
                   required
                   sx={{
                     width: '100%',
@@ -197,14 +196,14 @@ const MailingList = () => {
               <Button type="submit" sx={{ mt: [2, 0], fontSize: 2 }}>
                 {submitting ? (
                   <>
-                    <Loading /> Subscribe
+                    <Loading /> Abonează-te
                   </>
                 ) : submitted ? (
                   <>
-                    <Icon glyph="send" /> You're on the list!
+                    <Icon glyph="send" /> Ești pe listă!
                   </>
                 ) : (
-                  'Subscribe'
+                  'Abonează-te'
                 )}
               </Button>
             </Grid>

@@ -32,7 +32,7 @@ export default function Pizza() {
               mb: '8px'
             }}
           >
-            Start A Hack Club <br /> Get{' '}
+            Începe un Hack Club <br /> Obține{' '}
             <Text
               sx={{
                 background: [
@@ -44,17 +44,16 @@ export default function Pizza() {
               }}
             >
               {' '}
-              $100 In Pizza
+              $100 pentru Pizza
             </Text>
           </Text>
 
           <Text as="p" variant="subtitle" sx={{ color: '#000', mb: 3 }}>
-            GitHub is providing $100 pizza grants to every teen who starts a
-            Hack Club at their school.
+            Github oferă $100 pentru pizza pentru fiecare adolescent care vrea să înceapă un Hack Club la școala lor.
           </Text>
 
           <Buttons id="14" link="/pizza" icon="welcome" primary="primary">
-            Get Your Pizza Grant
+            Obține grantul
           </Buttons>
         </Box>
         <Box>

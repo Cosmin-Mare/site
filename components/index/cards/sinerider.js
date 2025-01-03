@@ -39,10 +39,10 @@ export default function Sinerider({ stars }) {
         <Box></Box>
         <Box sx={{ mt: ['-40px', '-40px', '-150px'] }}>
           <Text as="p" variant="subtitle">
-            SineRider is a game about love and graphing, powered by teenage
-            hackers of all kinds: artists, musicians, programmers, storytellers…
-            so if that’s you, come join us! We can always use help keeping
-            everything up to date and running smoothly.
+            SineRider este un joc despre dragoste și grafice, creat de hackeri
+            adolescenți de toate felurile: artiști, muzicieni, programatori,
+            povestitori… deci, dacă ești unul dintre ei, alătură-te nouă! Avem
+            mereu nevoie de ajutor pentru a menține totul actualizat și funcțional.
           </Text>
           <Flex sx={{ flexDirection: 'column', mt: [3, 3, 4] }}>
             <Buttons
@@ -54,7 +54,7 @@ export default function Sinerider({ stars }) {
               id="43"
               sx={{ color: '#271932' }}
             >
-              Play now
+              Joacă acum
             </Buttons>
             <Buttons
               icon="rainbow"
@@ -63,7 +63,7 @@ export default function Sinerider({ stars }) {
               rel="noopener"
               id="44"
             >
-              Join the development
+              Alătură-te dezvoltării
             </Buttons>
           </Flex>
         </Box>
